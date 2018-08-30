@@ -13,10 +13,10 @@ end
 
 
 
-def take_a_number(deli, name)
- deli << name
- puts "Welcome, #{name}. You are number #{katz_deli} in line."
-end
-end
+# def take_a_number(deli, name)
+# deli << name
+# puts "Welcome, #{name}. You are number #{katz_deli} in line."
+# end
+# end
 
 # Write your code here.
