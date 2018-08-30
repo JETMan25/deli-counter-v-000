@@ -1,16 +1,19 @@
-katz_deli = []
 
-def line(katz_deli)
+def line(deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
-  elsif katz_deli.length > 0 
-    katz_deli[+1].insert
+  else 
+    current_line = "The line is currently:"
+    deli.each.with_index(1) |person i|
+      current_line<< '#{i}. #{person}'
 end
-katz_deli.join
+puts current_line
+end
 
 
 
-def take_a_number(katz_deli, name)
+def take_a_number(deli, name)
+ deli << name
  puts "Welcome, #{name}. You are number #{katz_deli} in line."
 end
 
